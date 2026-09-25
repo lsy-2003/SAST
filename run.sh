@@ -1,0 +1,1 @@
+python train.py --c config/classic_cv/SAST/eurosat_ul.yaml

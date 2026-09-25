@@ -1,0 +1,122 @@
+{
+    "annual crop land": [
+        "rectangular field patches",
+        "visible soil furrows",
+        "varying shades of green and brown plots",
+        "sharp geometric field boundaries",
+        "seasonal harvest texture",
+        "multicolored agricultural mosaic",
+        "large cultivated plots",
+        "plowed earth patterns",
+        "distinct blocky land division",
+        "flat farming terrain"
+    ],
+    "permanent crop land": [
+        "distinct rows of vineyards",
+        "dotted orchard texture",
+        "grid-like tree plantation",
+        "organized woody vegetation patterns",
+        "olive groves texture",
+        "repetitive plant structure",
+        "systematic fruit tree layout",
+        "coarse granular vegetation",
+        "aligned agricultural thickets",
+        "rows of bushes seen from above"
+    ],
+    "pasture land": [
+        "uniform green grassy surface",
+        "smooth meadow texture",
+        "open grazing fields",
+        "continuous vegetation cover",
+        "homogeneous verdant ground",
+        "lush natural carpet",
+        "soft terrain appearance",
+        "undisturbed grassy expanse",
+        "vibrant green hue",
+        "grassy landscape"
+    ],
+    "forest": [
+        "dense continuous tree canopy",
+        "dark green interlocking foliage",
+        "textured treetops",
+        "shadows between tree crowns",
+        "unbroken woodland cover",
+        "deep green biomass",
+        "irregular organic texture",
+        "thick vegetation density",
+        "closed canopy ecosystem",
+        "leafy aerial view"
+    ],
+    "brushland or shrubland": [
+        "scattered low-lying bushes",
+        "patchy scrub vegetation",
+        "mix of dry soil and bushes",
+        "chaparral or heathland texture",
+        "irregular shrub clusters",
+        "wild uncultivated ground",
+        "rough semi-arid landscape",
+        "coarse vegetation surface",
+        "clumped plant growth",
+        "natural bushy terrain"
+    ],
+    "residential buildings or homes or apartments": [
+        "dense cluster of small rooftops",
+        "red or tiled roof textures",
+        "intricate street and house pattern",
+        "fragmented building mosaic",
+        "suburban housing arrangement",
+        "tightly packed dwelling units",
+        "pitched roof geometries",
+        "neighborhood road grid",
+        "small scale structural grains",
+        "community settlement layout"
+    ],
+    "industrial buildings or commercial buildings": [
+        "large scale rectangular structures",
+        "flat white or grey rooftops",
+        "massive building footprints",
+        "huge metal warehouse roofing",
+        "surrounding concrete aprons",
+        "boxy architectural forms",
+        "bright reflective roof surfaces",
+        "logistic facility layout",
+        "clustered large halls",
+        "functional angular architecture"
+    ],
+    "highway or road": [
+        "grey asphalt transportation line",
+        "paved road network",
+        "concrete highway infrastructure",
+        "white lane markings on pavement",
+        "intersection or junction",
+        "long winding paved route",
+        "hard surfaced distinct path",
+        "motorway strip",
+        "roadway cutting through landscape",
+        "engineered traffic artery"
+    ],
+    "river": [
+        "meandering water channel",
+        "natural flowing stream",
+        "curved organic water path",
+        "sinuous riparian zone",
+        "riverbank boundaries with vegetation",
+        "muddy or blue water body",
+        "winding liquid stream",
+        "inland water course",
+        "geographic water artery",
+        "fluid surface reflecting light"
+    ],
+    "lake or sea": [
+        "vast open water surface",
+        "coastline boundary",
+        "deep blue water expanse",
+        "large static water reservoir",
+        "sun glint on waves",
+        "extensive aquatic area",
+        "bounded water basin",
+        "rippled fluid surface",
+        "massive blue pigment",
+        "shore and water interface"
+    ]
+}
