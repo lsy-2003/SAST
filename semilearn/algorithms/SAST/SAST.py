@@ -518,7 +518,7 @@ class SAST(AlgorithmBase):
     @torch.no_grad()
     def _update_image_prototypes(self):
         per_class_num = (len(self.dataset_dict["train_lb"]) + len(self.dataset_dict["train_ulb"])) // self.num_classes
-        k_min = max(8, per_class_num // 100)
+        k_min = max(6, per_class_num // 100)
         k_max = max(16, int(per_class_num * self.args.anchor_num_end))
         ramp_epochs = max(1, int(self.epochs * 0.7))
         progress = min(1.0, self.epoch / ramp_epochs)
@@ -921,7 +921,7 @@ class SAST(AlgorithmBase):
     @torch.no_grad()
     def refresh_anchors_ssl(self, epoch=0):
         per_class_num = (len(self.dataset_dict["train_lb"]) + len(self.dataset_dict["train_ulb"])) // self.num_classes
-        k_min = max(8, per_class_num // 100)
+        k_min = max(6, per_class_num // 100)
         k_max = max(16, int(per_class_num * self.args.anchor_num_end))
 
         ramp_epochs = max(1, int(self.epochs * 0.7))
