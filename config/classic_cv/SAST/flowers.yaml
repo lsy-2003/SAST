@@ -25,7 +25,7 @@ lr: 0.02
 momentum: 0.9
 weight_decay: 0.05
 layer_decay: 1.0
-uratio: 7
+uratio: 1
 hard_label: True
 eval_batch_size: 128
 model_dir: ./training_dynamics/flowers/
