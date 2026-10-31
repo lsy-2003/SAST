@@ -162,7 +162,7 @@ class SASTTL(AlgorithmBase):
     def refresh_anchors_tl(self, epoch=0):
         per_class_num = (len(self.dataset_dict["train_lb"]) + len(self.dataset_dict["train_ulb"])) // self.num_classes
         k_min = max(6, per_class_num // 100)
-        k_max = max(12, int(per_class_num * self.args.anchor_num_end))
+        k_max = max(16, int(per_class_num * self.args.anchor_num_end))
         ramp_epochs = max(1, int(self.epochs * 0.7))
         progress = min(1.0, epoch / ramp_epochs)
 
@@ -414,7 +414,7 @@ class SASTTL(AlgorithmBase):
     def _update_image_prototypes(self):
         per_class_num = (len(self.dataset_dict["train_lb"]) + len(self.dataset_dict["train_ulb"])) // self.num_classes
         k_min = max(6, per_class_num // 100)
-        k_max = max(12, int(per_class_num * self.args.anchor_num_end))
+        k_max = max(16, int(per_class_num * self.args.anchor_num_end))
         ramp_epochs = max(1, int(self.epochs * 0.7))
         progress = min(1.0, self.epoch / ramp_epochs)
         current_k = int(k_min + (k_max - k_min) * progress)
