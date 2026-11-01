@@ -122,8 +122,8 @@ class CLIPMapleWrapper(nn.Module):
         ctx_init = prompt_template if prompt_template else 'a photo of a'
         print(f"[CLIPMapleWrapper] Initializing MaPLe with template: '{ctx_init}'")
 
-        maple_cfg = {'N_CTX': 2, 'CTX_INIT': ctx_init, 'PROMPT_DEPTH': 9}
-        design_details = {"trainer": 'MaPLe', "vision_depth": 9, "language_depth": 9, "maple_length": 2}
+        maple_cfg = {'N_CTX': 3, 'CTX_INIT': ctx_init, 'PROMPT_DEPTH': 9}
+        design_details = {"trainer": 'MaPLe', "vision_depth": 9, "language_depth": 9, "maple_length": 3}
 
         clip_model_obj, _ = clip.load(backbone, device='cpu')
         clip_model_state_dict = clip_model_obj.state_dict()
