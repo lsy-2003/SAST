@@ -29,7 +29,7 @@ layer_decay: 1.0
 hard_label: True
 eval_batch_size: 128
 model_dir: ./training_dynamics/flowers_tl/
-base_thresh: 0.95
+base_thresh: 0.9
 sigma: 1.0
 consistency_penalty: 0.1
 fusion_T: 1
